@@ -196,4 +196,12 @@ repository:
     name: 'string.unquoted'
     begin: '{'
     end: '}'
+    patterns: [
+      {
+        "include": "source.jinja"
+      }
+      {
+        "include": "source.python"
+      }
+    ]
 scopeName: 'source.klipper-cfg'
